@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/boogie4eva/stringutil"
+)
 
 func main() {
-	fmt.Println("Hello, world.")
+
+	fmt.Println(stringutil.Reverse("Hello word "))
+
 }
